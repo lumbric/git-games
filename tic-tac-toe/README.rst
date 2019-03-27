@@ -19,18 +19,20 @@ How to play
 Preparation:
 
 - fork this repository (or clone and push to your own GIT server)
-- add other player(s) as collaborators to the fork (or allow pushing to your)
+- add other player(s) as collaborators to the fork (or allow pushing to your remote)
 - clone the fork to your local machine
 
 Playing:
 
 - choose a player symbol `X` or `O`
 - edit the text file `board` and replace a character `.` by your player symbol
-- commit your move (the commit message is not important, but following conventions is appreciated)
-- push your commit
+- commit your move (the commit message is not important, but following conventions_ is appreciated - bonus points if you can make your opponent laugh or cry with an extraordinary creative message!)
+- push your commit to your fork/ your remote
 - next player fetches changes by running `git pull`
 - check for forced pushes and invalid moves
 - re-do the previous 6 steps until one of the players wins
+
+.. _conventions: https://chris.beams.io/posts/git-commit/
 
 Finalizing:
 
