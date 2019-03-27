@@ -10,7 +10,7 @@ How to play
 Playing involves roughly the following steps:
 
 - fork this repository (or clone and push to your own GIT server)
-- add other player(s) as collaborators to the fork[#]_ (or allow pushing to your remote)
+- add other player(s) as collaborators to the fork :sup:`1` (or allow pushing to your remote)
 - clone the fork to your local machine
 - play the game by editing files, committing and pushing
 - clean the board to original state
@@ -19,7 +19,7 @@ Playing involves roughly the following steps:
 
 **Detailed instructions can be found in the README.rst for each game.**
 
-.. [#] In theory you could also accept pull requests for every move for your opponents, but this will make the game pretty chaotic.
+:sup:`1` In theory you could also accept pull requests for every move for your opponents, but this will make the game pretty chaotic.
 
 Games
 -----
