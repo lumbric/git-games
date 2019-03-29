@@ -39,6 +39,31 @@ Wall of fame
 +----------------------+------------+---------------+
 
 
+Security
+--------
+
+Your opponent might rewrite the history and trick you in this way. To avoid
+this, you can run `git fetch` first and check the difference between
+`origin/your_branch` and `your_branch` before you merge `origin/your_branch` in
+`your_branch`. Git warns in case of forced pushes, but this warning is easy to
+overlook. If you want to make a fetch fail in case of a forced push, you can
+remove the `+` in the Git config in `remote.fetch`. If you own the remote you
+might be able to block forced pushes on server side, for example with Gerrit or
+`Github Enterprise`.
+
+In order to guarantee authenticated entries in the wall of fame, we would like
+to ask to `sign the commit`_ which modifies the wall of fame. Ideally the
+winner modifies the wall of fame, signs it and all opponents add a signed dummy
+commit on top (e.g. only white-space changes) to confirm that the winner did
+not cheat and modify the history before creating the pull request. You can
+easily create signed commits (using Github's GPG key) by editing and committing
+a file using `Github`_'s web interface.
+
+.. _`Github Enterprise`: https://help.github.com/en/enterprise/2.15/admin/developer-workflow/blocking-force-pushes-to-a-repository
+.. _`sign the commit`: https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work
+.. _`Github`: https://help.github.com/en/articles/signing-commits
+
+
 Inspiration for more games in future
 ------------------------------------
 
