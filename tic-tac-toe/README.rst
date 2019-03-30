@@ -27,7 +27,7 @@ Playing:
 - choose a player symbol `X` or `O`
 - edit the text file `board` and replace a character `.` by your player symbol
 - commit your move (the commit message is not important, but following conventions_ is appreciated - bonus points if you can make your opponent laugh or cry with an extraordinary creative message!)
-- push your commit to your fork/ your remote
+- push your commit to your fork/your remote
 - next player fetches changes by running `git pull`
 - check for forced pushes and invalid moves
 - re-do the previous 6 steps until one of the players wins
