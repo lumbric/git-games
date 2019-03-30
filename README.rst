@@ -26,9 +26,11 @@ Games
 
 - Tic-tac-toe_
 - Chess_
+- `Connect Four`_
 
 .. _Tic-tac-toe: tic-tac-toe/README.rst
 .. _Chess: chess/README.rst
+.. _`Connect Four`: connect-four/README.rst
 
 
 Wall of fame
@@ -45,13 +47,13 @@ Security
 --------
 
 Your opponent might rewrite the history and trick you in this way. To avoid
-this, you can run `git fetch` first and check the difference between
-`origin/your_branch` and `your_branch` before you merge `origin/your_branch` in
-`your_branch`. Git warns in case of forced pushes, but this warning is easy to
-overlook. If you want to make a fetch fail in case of a forced push, you can
-remove the `+` in the Git config in `remote.fetch`. If you own the remote you
-might be able to block forced pushes on server side, for example with Gerrit or
-`Github Enterprise`.
+this, you can run ``git fetch`` first and check the difference between
+``origin/your_branch`` and ``your_branch`` before you merge
+``origin/your_branch`` in ``your_branch``. Git warns in case of forced pushes,
+but this warning is easy to overlook. If you want to make a fetch fail in case
+of a forced push, you can remove the ``+`` in the Git config in
+``remote.fetch``. If you own the remote you might be able to block forced
+pushes on server side, for example with Gerrit or `Github Enterprise`.
 
 In order to guarantee authenticated entries in the wall of fame, we would like
 to ask to `sign the commit`_ which modifies the wall of fame. Ideally the

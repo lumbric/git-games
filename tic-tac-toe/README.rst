@@ -24,11 +24,11 @@ Preparation:
 
 Playing:
 
-- choose a player symbol `X` or `O`
-- edit the text file `board` and replace a character `.` by your player symbol
+- choose a player symbol ``X`` or ``O``
+- edit the text file ``board`` and replace a character ``.`` by your player symbol
 - commit your move (the commit message is not important, but following conventions_ is appreciated - bonus points if you can make your opponent laugh or cry with an extraordinary creative message!)
 - push your commit to your fork/your remote
-- next player fetches changes by running `git pull`
+- next player fetches changes by running ``git pull``
 - check for forced pushes and invalid moves
 - re-do the previous 6 steps until one of the players wins
 
@@ -36,7 +36,7 @@ Playing:
 
 Finalizing:
 
-- clean the board by running `git checkout master tic-tac-toe/board`
+- clean the board by running ``git checkout master tic-tac-toe/board``
 - add the winner to the wall of fame in the README.rst_
 - create a pull request (adds wall of fame and all moves)
 
