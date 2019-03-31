@@ -35,7 +35,7 @@ Playing:
 
 Finalizing:
 
-- clean the board by running ``git checkout master chess/board``
+- clean the board by running ``git checkout master connect-four/board``
 - add the winner to the wall of fame in the README.rst_
 - create a pull request (adds wall of fame and all moves)
 
