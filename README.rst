@@ -31,6 +31,7 @@ Games
 .. _Tic-tac-toe: tic-tac-toe/README.rst
 .. _Chess: chess/README.rst
 .. _`Connect Four`: connect-four/README.rst
+.. _`Mastermind`: mastermind/README.rst
 
 
 Wall of fame
@@ -72,6 +73,5 @@ Inspiration for more games in future
 ------------------------------------
 
 - https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe
-- https://en.wikipedia.org/wiki/Mastermind_(board_game)
 - https://en.wikipedia.org/wiki/Order_and_Chaos
 - https://en.wikipedia.org/wiki/Paper-and-pencil_game
