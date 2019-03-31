@@ -27,6 +27,7 @@ Games
 - Tic-tac-toe_
 - Chess_
 - `Connect Four`_
+- Mastermind_
 
 .. _Tic-tac-toe: tic-tac-toe/README.rst
 .. _Chess: chess/README.rst
