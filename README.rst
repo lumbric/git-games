@@ -1,4 +1,5 @@
-.. image:: https://img.shields.io/github/license/lumbric/git-games.svg   :alt: GitHub
+.. image:: https://img.shields.io/github/license/lumbric/git-games.svg
+  :alt: MIT License  
 
 git-games
 =========
