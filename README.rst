@@ -4,7 +4,7 @@
 git-games
 =========
 
-*git-games* is a collection of (mostly classical paper) games which can be played by using GIT for educational purposes. It might be more fun to play these games with paper an pencil, but less fun to learn GIT or test GIT commands without playing these games! :)
+**git-games** is a collection of (mostly classical board or paper and pencil) games which can be played by using GIT for educational purposes. It might be more fun to play these games with paper an pencil, but less fun to learn GIT or test GIT commands without playing these games! :)
 
 
 How to play
@@ -19,6 +19,8 @@ Playing involves roughly the following steps:
 - clean the board to original state
 - add the winner to the wall of fame in table below
 - create a pull request (adds wall of fame and all moves)
+
+Cheating is highly appreciated! If you can trick your opponent, the victory is yous. See Security_ for more details.
 
 **Detailed instructions can be found in the README.rst for each game.**
 
