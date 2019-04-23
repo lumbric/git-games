@@ -59,3 +59,28 @@ class TicTacToeBoard(Board):
 
         board = cls(fields)
         return board
+
+
+class InvalidMove(Exception):
+    ...
+
+
+class Move:
+    def __init__(self, old_board, new_board):
+        changed_fields = [(i, j) for i in range(3) for j in range(3)
+                          if old_board.fields[i][j] != new_board.fields[i][j]]
+
+        if len(changed_fields) == 0:
+            raise InvalidMove
+        elif len(changed_fields) > 1:
+            ...
+
+        row, col = changed_fields[0]
+
+        if old_board[row][col] != '.':
+            ...
+
+        if new_board[row][col] not in PLAYERS:
+            ...
+
+        return new_board[row][col].lower()

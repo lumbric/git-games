@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+
+import argparse
+import sys
+
+
+class Move:
+    def __init__(self, old_board, new_board):
+        ...
+
+
+# Travis CI should confirm
+#   - move ok
+
+# Pull requests:
+#   - wall of fame ok, board cleared, one game played
+
+
+
+def install_hooks():
+    ...
+
+
+if __name__ == '__main__':
+    if sys.version_info < (3,):
+        raise RuntimeError(f"Python {sys.version_info} not supported, run with Python >= 3.6")
+
+    argparse
+    ...
+

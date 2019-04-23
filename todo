@@ -1,0 +1,39 @@
+
+
+
+- check commits
+    - automat:
+        - move_1st player
+        - move_2nd player
+        - wall of fame
+        - clear
+
+    - type of commit:
+        - move
+            - one board modified only
+            - moves: setup hash (mastermind), player1, player2, win, ...
+
+        - wall of fame
+            - correct wall of fame?
+            - correct entries?
+
+        - empty board
+            - just one board modified
+            - verified commit of the correct person?
+
+        - other: code changes
+
+
+- code tests on master
+    - check valid (empty) boards
+    - check some dummy boards, to test code for commits
+
+
+- hooks? install hooks?
+
+- play against travis
+    - mastermind
+    - tic-tac-toe
+    - chess
+
+
